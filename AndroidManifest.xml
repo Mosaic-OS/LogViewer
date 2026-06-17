@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="app.grapheneos.logviewer">
+    package="app.mosaicos.logviewer">
 
     <uses-permission android:name="android.permission.READ_LOGS" />
     <uses-permission android:name="android.permission.READ_LOGS_FULL" />
@@ -9,10 +9,10 @@
     <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES" />
     <uses-permission android:name="android.permission.QUERY_USERS" />
 
-    <permission android:name="app.grapheneos.logviewer.SHOW_LOGCAT"
+    <permission android:name="app.mosaicos.logviewer.SHOW_LOGCAT"
         android:protectionLevel="signature|privileged" />
 
-    <permission android:name="app.grapheneos.logviewer.SHOW_ERROR_REPORT"
+    <permission android:name="app.mosaicos.logviewer.SHOW_ERROR_REPORT"
         android:protectionLevel="signature|preinstalled" />
 
     <application
@@ -22,7 +22,7 @@
     >
         <activity
             android:name=".LogcatActivity"
-            android:permission="app.grapheneos.logviewer.SHOW_LOGCAT"
+            android:permission="app.mosaicos.logviewer.SHOW_LOGCAT"
             android:documentLaunchMode="always"
             android:exported="true" >
 
@@ -36,7 +36,7 @@
 
         <activity
             android:name=".ErrorReportActivity"
-            android:permission="app.grapheneos.logviewer.SHOW_ERROR_REPORT"
+            android:permission="app.mosaicos.logviewer.SHOW_ERROR_REPORT"
             android:documentLaunchMode="always"
             android:exported="true" >
 

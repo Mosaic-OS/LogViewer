@@ -1,4 +1,4 @@
-package app.grapheneos.logviewer;
+package app.mosaicos.logviewer;
 
 import android.annotation.Nullable;
 import android.app.Activity;
@@ -11,7 +11,7 @@ import android.os.ParcelFileDescriptor;
 import java.util.concurrent.Executor;
 import java.util.concurrent.Executors;
 
-import static app.grapheneos.logviewer.Utils.showToast;
+import static app.mosaicos.logviewer.Utils.showToast;
 
 class SnapshotSaver {
     static final int ACTIVITY_REQUEST_CODE = 1000;

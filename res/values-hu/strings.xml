@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_label">Log Nézegető</string>
+
+    <string name="error_report_title">Hiba: %1$s</string>
+    <string name="system_log_title">Rendszer log</string>
+    <string name="app_log_title">%1$s log</string>
+
+    <string name="action_copy">Másolás</string>
+    <string name="copied_to_clipboard">Vágólapra másolva</string>
+    <string name="copied_to_clipboard_truncated">Csonkolt szöveg másolva a vágólapra</string>
+
+    <string name="action_save">Mentés</string>
+    <string name="toast_saved">“%1$s” elmentve</string>
+    <string name="toast_unable_to_open_file">Fájl megnyitása sikertelen</string>
+    <string name="unable_to_save_file">Fájl mentése sikertelen</string>
+
+    <string name="action_apply">Alkalmaz</string>
+
+    <string name="action_share">Megosztás</string>
+    <string name="action_report">Jelentés</string>
+
+    <string name="action_more_info">Több infó</string>
+    <string name="toast_unable_to_show_more_info">Több infó mutatása sikertelen</string>
+    <string name="action_show_log">Logok mutatása</string>
+    <string name="action_show_system_log">Rendszerlog mutatása</string>
+
+    <string name="log_buffers">Logolási bufferek</string>
+    <string name="log_level">Logolási szint</string>
+
+    <string name="set_filter">Szűrés</string>
+    <string name="set_filter_editor_hint">Adjon meg regex mintát...</string>
+
+    <string name="add_description">Leírás hozzáadása</string>
+    <string name="update_description">Leírás frissítése</string>
+</resources>

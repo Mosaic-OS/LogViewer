@@ -1,4 +1,4 @@
-package app.grapheneos.logviewer;
+package app.mosaicos.logviewer;
 
 import android.annotation.Nullable;
 import android.content.ContentResolver;

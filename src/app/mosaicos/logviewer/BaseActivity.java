@@ -1,4 +1,4 @@
-package app.grapheneos.logviewer;
+package app.mosaicos.logviewer;
 
 import android.annotation.Nullable;
 import android.app.Activity;
@@ -31,7 +31,7 @@ import java.util.List;
 import java.util.UUID;
 
 import static android.view.ViewGroup.LayoutParams.MATCH_PARENT;
-import static app.grapheneos.logviewer.Utils.splitLines;
+import static app.mosaicos.logviewer.Utils.splitLines;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 import static java.util.Collections.emptyList;

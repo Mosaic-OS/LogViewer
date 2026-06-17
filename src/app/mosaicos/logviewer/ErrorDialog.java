@@ -1,4 +1,4 @@
-package app.grapheneos.logviewer;
+package app.mosaicos.logviewer;
 
 import android.app.AlertDialog;
 import android.content.ClipData;
